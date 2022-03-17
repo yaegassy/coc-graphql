@@ -13,6 +13,8 @@ import path from 'path';
 import { CustomInitializationFailedHandler } from './CustomInitializationFailedHandler';
 
 export async function activate(context: ExtensionContext): Promise<void> {
+  if (!workspace.getConfiguration('graphql').get<boolean>('enable', true)) return;
+
   const outputChannel: OutputChannel = window.createOutputChannel('GraphQL Language Server');
 
   const serverModule = context.asAbsolutePath(path.join('lib', 'server', 'server.js'));
