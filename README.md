@@ -6,7 +6,7 @@ GraphQL extension for [coc.nvim](https://github.com/neoclide/coc.nvim)
 
 ## !! Note & Warning !!
 
-I don't use "GraphQL" regularly, so if you like cucumber, please refer or copy to this repository and create coc-graphql by yourself.
+I don't use "GraphQL" regularly, so if you like "GraphQL", please refer or copy to this repository and create coc-graphql by yourself.
 
 ## Install
 
