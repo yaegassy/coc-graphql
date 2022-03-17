@@ -128,13 +128,7 @@
           "default": null
         }
       }
-    },
-    "commands": [
-      {
-        "command": "coc-graphql.Command",
-        "title": "coc-graphql command title"
-      }
-    ]
+    }
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
